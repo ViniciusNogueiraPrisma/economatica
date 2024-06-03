@@ -1,0 +1,873 @@
+[data-theme="dark"] {
+  .acessibillity-bar .content .left-top-header p {
+    color: white;
+  }
+
+  .icon-contraste:before {
+    color: white;
+  }
+
+  .icon-aumentar-fonte:before {
+    color: white;
+  }
+
+  .icon-diminuir-fonte:before {
+    color: white;
+  }
+
+  .acessibillity-bar .content .right-top-header .drop-idiomas .dropdown-toggle {
+    color: white;
+  }
+
+  .header
+    .content
+    .nav-menu-header
+    > ul
+    .header-navigation-item
+    .dropdown-toggle {
+    color: white;
+  }
+
+  .icon-busca:before {
+    color: white;
+  }
+
+  .primary-button {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+  }
+
+  .footer-fixed .top-footer-fixed .button-mapa-site {
+    color: white;
+  }
+
+  .icon-exibir:before {
+    color: white;
+  }
+
+  .footer .footer-bottom-content p {
+    color: white;
+  }
+
+  .termos-condicoes li a {
+    color: white !important;
+  }
+
+  .voltar-topo {
+    color: white;
+  }
+
+  .footer .footer-bottom-content .byRiweb img {
+    filter: brightness(16.5);
+  }
+
+  .footer-fixed .list-menu-footer > div h5 {
+    color: white;
+  }
+
+  .footer-fixed .list-menu-footer > div ul li a {
+    color: white;
+  }
+
+  .form-select-filtro select {
+    filter: brightness(14);
+  }
+
+  .logo-white {
+    filter: contrast(0.1) brightness(3.5);
+  }
+
+  .acessibillity-bar .content .left-top-header p::before {
+    color: white;
+  }
+
+  .qs-texts h2 {
+    color: white;
+  }
+
+  .proposito-qs h1 {
+    color: white;
+  }
+
+  .proposito-qs h2 {
+    color: white;
+  }
+
+  .section-valores-qs {
+    background-color: #1d1d1d;
+  }
+
+  .itens-valores h1 {
+    color: white;
+  }
+
+  .title-valores {
+    h1 {
+      color: white;
+    }
+
+    span {
+      color: white;
+    }
+  }
+
+  .header-interno:before {
+    background: linear-gradient(
+      90deg,
+      rgb(22 22 22) 0%,
+      rgba(255, 255, 255, 0) 85%
+    );
+  }
+
+  .texts-lider {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .infos-lider h1 {
+    color: white;
+  }
+
+  .infos-lider span {
+    color: white;
+  }
+
+  .curr-lider img {
+    filter: contrast(0.5) brightness(16.5);
+  }
+
+  .curr-lider span {
+    color: white;
+  }
+
+  .timeline__item h3 {
+    color: white;
+  }
+
+  .flex h1 {
+    color: white;
+  }
+
+  .form-select-filtro select {
+    color: white;
+  }
+
+  .flex span {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    background-color: transparent;
+  }
+
+  .table thead tr th {
+    color: white;
+  }
+
+  .table thead tr {
+    border-bottom: 1px solid white;
+  }
+
+  .infos-ri {
+    background-color: transparent;
+  }
+
+  .txt-icon-infos-ri span strong {
+    color: white;
+  }
+
+  .txt-icon-infos-ri img {
+    filter: contrast(0.5) brightness(18.5);
+  }
+
+  .icon-exibir:before {
+    color: white !important;
+  }
+
+  .logo-colorida {
+    filter: contrast(0.5) brightness(18.5);
+  }
+
+  .header-interno .info-header-interno .list-history-page li a {
+    color: white;
+  }
+
+  .table-hover > tbody > tr:hover > * {
+    color: white;
+    cursor: pointer;
+  }
+
+  .button-text {
+    color: #fff !important;
+  }
+
+  .banner-texture {
+    display: none;
+    img {
+    }
+  }
+
+  .others-itens-menu .btn-espc a {
+    background-color: transparent !important;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+  }
+
+  .header .content .header-right-side .open-searchbox .icon-busca::before {
+    background-color: #fff;
+    color: black !important;
+  }
+
+  .infos-banner .texts-banner h1 {
+    color: white;
+  }
+
+  .infos-banner .texts-banner h1 span {
+    color: white;
+  }
+
+  .infos-banner .texts-banner .description-text h4 {
+    color: white;
+  }
+
+  .infos-banner .texts-banner .btns-banner .btn-1 {
+    background-color: #fff;
+    color: black !important;
+  }
+
+  .infos-banner .texts-banner .btns-banner .btn-2 {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .texts-carrosel h6 {
+    color: white;
+  }
+
+  .texts-carrosel h1 {
+    color: white;
+
+    span {
+      color: white;
+    }
+  }
+
+  .estrutura-home {
+    background-color: #1d1d1d;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: white;
+  }
+
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    filter: invert(1);
+  }
+
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    filter: invert(1);
+  }
+
+  .wrapper-home .swiper-slide .btn-slide {
+    background-color: white;
+    color: black;
+  }
+
+  .container-carrosel::before {
+    background: #ffffff;
+    background: linear-gradient(
+      90deg,
+      rgba(14, 66, 64, 0) 50%,
+      rgb(0 0 0 / 33%) 66%
+    );
+  }
+
+  .texts-estrutura h6 {
+    color: white;
+  }
+
+  .texts-estrutura h2 span {
+    color: white;
+  }
+
+  .cards-estrutura .card {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .cards-estrutura .card .card-title {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .ghost-video {
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(25, 67, 65, 0.8771883754) 0%,
+      rgb(0 0 0 / 45%) 100%
+    );
+    background: linear-gradient(
+      0deg,
+      rgb(0 0 0 / 88%) 0%,
+      rgb(0 0 0 / 45%) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#194341", endColorstr="#194341", GradientType=1);
+  }
+
+  .infos-video .texts-video h6 {
+    color: white;
+  }
+
+  .cards-video .card h1 {
+    color: black;
+  }
+
+  .cards-video .card h1 span {
+    color: black;
+  }
+
+  .clientes-home h2 {
+    color: white;
+  }
+
+  .cadastro-footer .input-footer button {
+    border: 1px solid white;
+    background-color: transparent;
+  }
+
+  .clientes-home img {
+    filter: grayscale(1) brightness(18);
+  }
+
+  .logos-cliente {
+    background: rgb(29, 29, 29);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(29, 29, 29, 1) 0%,
+      rgba(29, 29, 29, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(29, 29, 29, 1) 0%,
+      rgba(29, 29, 29, 0) 100%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(29, 29, 29, 1) 0%,
+      rgba(29, 29, 29, 0) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d",endColorstr="#1d1d1d",GradientType=1);
+
+    img {
+      filter: invert(1) brightness(1);
+    }
+  }
+
+  .btn-1::after {
+    filter: none !important;
+  }
+
+  .link-com-arrow::after,
+  .link-com-download::after {
+    filter: grayscale(1) invert(1) brightness(19);
+  }
+
+  .duv-home {
+    background-color: transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .content-duv .text-duv h2 {
+    color: white;
+  }
+
+  .content-duv .text-duv h5 {
+    color: white;
+  }
+
+  .content-duv .link-duv a {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+
+  footer {
+    background-color: transparent;
+  }
+
+  .last-footer {
+    background-color: transparent;
+  }
+
+  .last-footer .last-itens-footer p {
+    color: white;
+  }
+
+  .last-footer .last-itens-footer .logo-prisma img {
+    filter: brightness(18);
+  }
+
+  .first-dropdown .title-dropdown {
+    background-color: #272727;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .first-dropdown .title-dropdown p {
+    color: white;
+  }
+
+  .header
+    .content
+    .nav-menu-header
+    > ul
+    .header-navigation-item
+    .dropdown-menu
+    li
+    .dropdown-item:hover {
+    background-color: #1d1d1d;
+  }
+
+  .second-dropdown .item:hover {
+    background-color: #1d1d1d;
+  }
+
+  .cadastro-footer .input-footer button img {
+    filter: grayscale(1);
+  }
+
+  .header-internas {
+    background-color: transparent;
+  }
+
+  .first-content-qs {
+    background-color: transparent;
+  }
+
+  .texts-qs h2 {
+    color: white;
+  }
+
+  .texts-qs p {
+    color: white;
+  }
+
+  .texts-qs h3 {
+    color: white;
+  }
+
+  .s-texts-qs h2 {
+    color: white;
+  }
+
+  .s-texts-qs p {
+    color: white !important;
+  }
+
+  .title-p h4 {
+    color: white;
+  }
+
+  .plataformas-prisma {
+    background-color: transparent;
+  }
+
+  .cards-p .card {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .cards-p .card .card-content h4 {
+    color: white;
+  }
+  .cards-p .card .card-content p {
+    color: white;
+  }
+
+  .cards-p .card .card-content a {
+    color: white;
+  }
+
+  .proj-nt {
+    background-color: transparent;
+  }
+
+  .texts-section-des .texts-content h3 {
+    color: white;
+  }
+
+  .texts-section-des .texts-content h3 span {
+    color: white;
+  }
+
+  .images-section-des::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    background: rgb(27, 27, 27);
+    background: linear-gradient(
+      0deg,
+      rgba(27, 27, 27, 0.96) 0%,
+      rgba(0, 0, 0, 0.96) 100%
+    );
+  }
+
+  .parallax-container {
+    background-color: transparent;
+  }
+
+  .xp-prisma {
+    background-color: transparent;
+  }
+
+  .counter-xp .counter-item span {
+    color: black;
+  }
+
+  .carrosel-xp {
+    background-color: transparent;
+  }
+
+  .title-carousel-xp p {
+    color: white;
+  }
+
+  .mySwiper-xp .swiper-slide p {
+    color: white;
+  }
+
+  .mySwiper-xp .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: white !important;
+  }
+
+  .texts-sec h2 {
+    color: white;
+  }
+
+  .texts-sec p {
+    color: white;
+  }
+
+  .dados-sec {
+    background-color: transparent;
+  }
+
+  .mySwiper-sec .swiper-slide .swiper-card {
+    border: 1px solid white;
+  }
+
+  .sec-accordions-container {
+    background-color: transparent;
+  }
+
+  .accordion .accordion-header button:not(.collapsed) {
+    background-color: #f2f2f2;
+  }
+
+  .accordion .accordion-collapse .accordion-body {
+    background: #f2f2f2;
+    color: #333;
+  }
+
+  .services {
+    background-color: transparent;
+  }
+
+  .services .title-services h2 span {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .title-content h2 {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .title-content h4 {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .texts-content p {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .links-content .link-ri {
+    background-color: white;
+    color: black;
+  }
+
+  .itens-services .contents .content-1 .links-content .link-port {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
+  .itens-services .list a {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+    img {
+      filter: contrast(1) grayscale(1) brightness(26.5);
+    }
+  }
+
+  .itens-services .list a.active {
+    background-color: white !important;
+    color: black;
+
+    img {
+      filter: contrast(0);
+    }
+  }
+
+  .itens-services .contents .content-1 .other-text h4 {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .other-text p {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .other-text .list-p span {
+    color: white;
+  }
+
+  .itens-services .contents .content-1 .other-text h6 {
+    color: white;
+  }
+
+  // .video-home {
+  //   background-color: transparent;
+  // }
+
+  .clientes-home-sec {
+    background-color: transparent;
+  }
+
+  .logos-cliente::before {
+    display: none;
+  }
+
+  .button:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white;
+  }
+
+  .tab-pane-sis .nav-tabs li a.active {
+    color: white !important;
+    border-bottom: 2px solid white !important;
+  }
+
+  .tab-pane-sis .tab-content .tab-pane .title-tab-content h3 {
+    color: white;
+  }
+
+  .tab-pane-sis .tab-content .tab-pane .title-tab-content p {
+    color: white;
+  }
+
+  .tab-pane-sis .tab-content .tab-pane .main-content .content .text p {
+    color: white;
+  }
+
+  .empresas-grupo .title-content-eg h2 {
+    color: white;
+  }
+
+  .empresas-grupo .content-eg .img {
+    border: 1px solid white;
+  }
+
+  .empresas-grupo .content-eg .img p {
+    color: white;
+  }
+
+  .monitoramento .title-monitoramento h2 {
+    color: white;
+  }
+
+  .monitoramento .title-monitoramento h4 {
+    color: white;
+  }
+
+  .monitoramento .content-monitoramento .content .text p {
+    color: white;
+  }
+
+  .content-tabs .content .content-text h3 {
+    color: white;
+  }
+
+  .content-tabs .content .content-text h4 {
+    color: white;
+  }
+
+  .cards-estrutura .card .card-title h6 {
+    color: white;
+  }
+
+  .cards-estrutura .card .card-texts h5 {
+    color: white;
+  }
+
+  .cards-estrutura .card .card-texts span {
+    color: white;
+  }
+
+  .card-title img {
+    filter: grayscale(1) brightness(11.5);
+  }
+
+  .header
+    .content
+    .nav-menu-header
+    > ul
+    .header-navigation-item
+    .dropdown-menu
+    li
+    .dropdown-item {
+    color: black;
+  }
+
+  .header
+    .content
+    .nav-menu-header
+    > ul
+    .header-navigation-item
+    .dropdown-menu
+    li
+    .dropdown-item:hover {
+    color: white;
+  }
+
+  .second-dropdown .item:hover a {
+    color: white !important;
+  }
+
+  .second-dropdown .item:hover img {
+    filter: grayscale(1) brightness(18);
+  }
+
+  .wrapper-sec .swiper-slide .swiper-card img {
+    filter: grayscale(1) brightness(0.5);
+  }
+
+  .accordion .accordion-header button {
+    background-color: white;
+  }
+
+  .accordion .accordion-header button::after {
+    color: #333;
+  }
+
+  .accordion .accordion-header:hover button:hover {
+    background-color: #f2f2f2;
+  }
+
+  .accordions-sec .title-accordion h3 {
+    // color: white;
+  }
+
+  .itens-services .contents .content-1 .bullets-content .bullets img {
+    filter: grayscale(1) brightness(0.5);
+  }
+
+  .section-sis {
+    background-color: transparent;
+  }
+
+  .section-sis-infos .title-sis-infos h4 {
+    color: white;
+  }
+
+  .secondary-button {
+    border: 1px solid white;
+    color: white;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .texts-contato .texts-content h2 {
+    color: white;
+  }
+
+  .cards-contato .card p {
+    color: black;
+  }
+
+  .texts-contato .texts-content p {
+    color: white;
+  }
+
+  .disclaimer ul li {
+    color: white;
+  }
+
+  .texts-contato .texts-content p {
+    color: white;
+  }
+
+  .title-local h3 {
+    color: white;
+  }
+
+  .title-local span {
+    color: white;
+  }
+
+  .title-local p {
+    color: white;
+  }
+
+  .tab-pane-sis .tab-content .tab-2-full {
+    background-color: transparent;
+  }
+
+  .tab-pane-sis .tab-content .tab-4-full {
+    background-color: transparent;
+  }
+
+  .empresas-grupo .content-eg .img img {
+    filter: invert(1) grayscale(1) brightness(2.5);
+  }
+
+  .modal-body {
+    background-color: #1d1d1d;
+    border-radius: 0px !important;
+  }
+
+  .modal-btns label {
+    color: white;
+  }
+
+  .modal-btns .form-contact-us a {
+    color: white !important;
+  }
+
+  .modal-header {
+    background-color: #000;
+  }
+
+  .close {
+    background-color: #1d1d1d;
+  }
+}

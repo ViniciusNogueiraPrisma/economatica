@@ -1,0 +1,120 @@
+.table {
+  //   margin: 28px 0 28px;
+  margin-top: 40px;
+
+  thead {
+    tr {
+      // background-color: var(--primary-01-default);
+      border-bottom: 1px solid var(--text-color-main);
+      // background-color: none !important;
+
+      th {
+        // color: var(--text-white);
+        color: var(--text-color-main);
+        padding: 12px 8px;
+        font-size: rem(14);
+        font-weight: 900;
+        vertical-align: middle;
+        // background-color: var(--bg-green);
+
+        span {
+          font-weight: 400;
+          display: block;
+        }
+
+        &:not(:first-child) {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  tbody {
+    border-top: none !important;
+    tr {
+      border-bottom: 1px solid var(--text-grey-scale-02);
+
+      td {
+        border: none;
+        color: var(--text-color);
+        font-size: rem(14);
+        vertical-align: middle;
+        padding: 12px 8px;
+
+        img {
+          margin: 0 auto;
+          width: 32px;
+
+          // filter: brightness(0) invert(53%) sepia(12%) saturate(531%) hue-rotate(179deg) brightness(103%)
+          //     contrast(93%);
+        }
+
+        &.not-active {
+          a {
+            cursor: default;
+          }
+          img {
+            opacity: 0.5;
+          }
+        }
+
+        &:not(:first-child) {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.table-no-borders {
+  tr {
+    td,
+    th {
+      padding: 12px 8px;
+      font-size: rem(14);
+    }
+
+    th {
+      font-weight: 700;
+    }
+  }
+}
+
+.table-accordion-adm {
+  thead {
+    tr {
+      th {
+        &:not(:first-child, :nth-child(2)) {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        cursor: pointer;
+      }
+
+      td {
+        &:first-child {
+          span {
+            font-size: rem(30px);
+            color: var(--text-primary-01-var-1);
+          }
+        }
+
+        &:not(:nth-child(2)) {
+          text-align: center;
+        }
+      }
+
+      &.accordion-collapse {
+        td {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
