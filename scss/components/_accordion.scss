@@ -17,7 +17,7 @@
       button {
         &:hover {
           transition: 0.3s;
-          background-color: #aacbc4;
+          // background-color: #aacbc4;
           padding-left: 40px !important;
 
           &::after {
@@ -32,86 +32,55 @@
     }
 
     button {
-      padding: 24px !important;
       font-size: rem(18);
-      color: #333333;
-      background-color: var(--bg-light);
-      border: none;
-      box-shadow: none;
-      font-weight: 400;
-      border-radius: 4px !important;
+      color: var(--Cores-Petrleo, #023a4a);
+      font-family: "Helvetica Neue";
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
 
-      font-family: var(--font-sans);
-      font-weight: 400;
-      line-height: 27px;
       transition: 0.3s;
-
-      @media (max-width: 450px) {
-        padding-right: 50px !important;
-      }
+      padding: 32px !important;
+      border-radius: 4px !important;
+      border-bottom: 1px solid var(--Cores-Mrmore, #e8eeef);
+      box-shadow: none;
 
       &::after {
-        content: "\e906";
-        font-family: var(--font-icomoon);
-        position: absolute;
-        right: 20px;
-        font-size: rem(20);
-        color: #17876d;
-
-        transition: 0.3s ease;
-        font-weight: 400;
-        background-image: none;
-
-        display: flex;
-        // align-items: center;
-      }
-
-      &:not(.collapsed) {
-        // background-color: #194341;
-
-        border-radius: 8px 8px 0 0 !important;
-
-        &::after {
-          transform: rotate(45deg);
-          // color: var(--text-white);
-        }
-        // color: var(--text-white);
-      }
-
-      &.collapsed:hover {
-        // background-color: var(--primary-01-var-1);
+        transition: 0.3s !important;
       }
     }
   }
 
-  // .accordion-collapse.collapsing .accordion-body {
-  //   background-color: #fff !important;
-  //   transition: 0.2s;
-  // }
-
   .accordion-collapse {
-    border: none;
-    box-shadow: none;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-
     .accordion-body {
-      padding: 0px 40px 24px 40px;
+      padding-bottom: 32px;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 0px;
+
       border-radius: 0 0 9px 9px;
       transition: 0.3s;
-      background-color: #aacbc4;
-      font-size: 18px;
-      font-family: var(--font-sans);
+      background: rgba(232, 238, 239, 0.25);
+
+      color: var(--Cores-nix, #1d1d1d);
+      font-family: "Helvetica Neue";
+      font-size: 16px;
+      font-style: normal;
       font-weight: 400;
-      line-height: 27px;
-      word-wrap: break-word;
+      line-height: 150%;
     }
   }
 }
 
 .accordion {
   button[aria-expanded="true"] {
-    // border: 1px solid red;
-    background-color: #aacbc4;
+    border-radius: 8px;
+    background: rgba(232, 238, 239, 0.25);
+    transition: 0.3s;
+    border-bottom: unset;
   }
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }

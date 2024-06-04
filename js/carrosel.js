@@ -1,71 +1,53 @@
-var swiper = new Swiper(".mySwiper", {
-  loop: true,
-  slidesPerView: "auto",
-  // spaceBetween: 24,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-
-// window.addEventListener("resize", function () {
-//   if (window.innerWidth < 1200) {
-//     swiper.params.slidesPerView = 3;
-//   } else {
-//     swiper.params.slidesPerView = "auto";
-//   }
-
-//   swiper.update();
-// });
-
-// swiper.autoplay.start();
-// swiper.params.autoplay.delay = 6000;
-
-var swiper = new Swiper(".mySwiper-sec", {
+var swiper = new Swiper(".mySwiper-func", {
   loop: false,
   slidesPerView: "auto",
-  spaceBetween: 24,
-  autoplay: {
-    delay: 5000,
-  },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-
-var swiper = new Swiper(".mySwiper-home", {
-  loop: false,
-  slidesPerView: "auto",
-  spaceBetween: 24,
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   // type: "fraction",
+  spaceBetween: 14,
+  // autoplay: {
+  //   delay: 3000,
   // },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
   },
 });
 
-var swiper = new Swiper(".mySwiper-xp", {
+var swiper = new Swiper(".mySwiper-depoimentos", {
   loop: false,
   slidesPerView: "auto",
-  spaceBetween: 24,
-  autoplay: {
-    delay: 3000,
+  spaceBetween: 14,
+  // autoplay: {
+  //   delay: 3000,
+  // },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
   },
+});
+
+var swiper = new Swiper(".mySwiper-futuro", {
+  loop: false,
+  slidesPerView: "auto",
+  spaceBetween: 14,
+  // autoplay: {
+  //   delay: 3000,
+  // },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+var swiper = new Swiper(".mySwiper-parceiros", {
+  loop: false,
+  slidesPerView: "auto",
+  spaceBetween: 14,
+  // autoplay: {
+  //   delay: 3000,
+  // },
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
