@@ -143,32 +143,32 @@ $(document).ready(function () {
 
   $("a#menu-item-2").parent().find("ul").addClass("second-dropdown");
 
-  $("ul.second-dropdown li.item").each(function () {
-    var menu = $(this).find("a").text().toLowerCase();
+  // $("ul.second-dropdown li.item").each(function () {
+  //   var menu = $(this).find("a").text().toLowerCase();
 
-    if (menu.indexOf("website") != -1) {
-      $(this).prepend('<img src="images/icons/website-logo.png" alt="site">');
-    } else if (menu.indexOf("meetings") != -1) {
-      $(this).prepend(
-        '<img src="images/icons/meetings-logo.png" alt="Meetings">'
-      );
-    } else if (menu.indexOf("irm") != -1) {
-      $(this).prepend('<img src="images/icons/logo-irm.png" alt="IRM">');
-    } else if (menu.indexOf("awareness") != -1) {
-      $(this).prepend('<img src="images/icons/logo-awa.png" alt="Awareness">');
-    } else if (
-      menu.indexOf("consultoria") != -1 ||
-      menu.indexOf("consultancy") != -1
-    ) {
-      $(this).prepend(
-        '<img src="images/icons/logo-consult.png" alt="Consultoria">'
-      );
-    } else if (menu.indexOf("outros") != -1 || menu.indexOf("others") != -1) {
-      $(this).prepend(
-        '<img src="images/icons/icon-menu-outros.png" alt="Outros Serviços">'
-      );
-    }
-  });
+  //   if (menu.indexOf("website") != -1) {
+  //     $(this).prepend('<img src="images/icons/website-logo.png" alt="site">');
+  //   } else if (menu.indexOf("meetings") != -1) {
+  //     $(this).prepend(
+  //       '<img src="images/icons/meetings-logo.png" alt="Meetings">'
+  //     );
+  //   } else if (menu.indexOf("irm") != -1) {
+  //     $(this).prepend('<img src="images/icons/logo-irm.png" alt="IRM">');
+  //   } else if (menu.indexOf("awareness") != -1) {
+  //     $(this).prepend('<img src="images/icons/logo-awa.png" alt="Awareness">');
+  //   } else if (
+  //     menu.indexOf("consultoria") != -1 ||
+  //     menu.indexOf("consultancy") != -1
+  //   ) {
+  //     $(this).prepend(
+  //       '<img src="images/icons/logo-consult.png" alt="Consultoria">'
+  //     );
+  //   } else if (menu.indexOf("outros") != -1 || menu.indexOf("others") != -1) {
+  //     $(this).prepend(
+  //       '<img src="images/icons/icon-menu-outros.png" alt="Outros Serviços">'
+  //     );
+  //   }
+  // });
 });
 
 function preencheAlertas() {
