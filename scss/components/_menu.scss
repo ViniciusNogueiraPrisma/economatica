@@ -29,6 +29,35 @@ body {
   z-index: 200;
   transition: transform 0.4s linear;
 
+  .social-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      color: var(--Cores-Mrmore, #e8eeef);
+      font-family: "Atyp Display";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+    }
+
+    .imgs-mobile-social {
+      display: flex;
+      gap: 40px;
+      margin-top: 24px;
+      margin-bottom: 48px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
   &.active {
     transform: translateX(0);
   }
@@ -36,7 +65,7 @@ body {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
-    padding: 0 0 24px 0;
+    padding: 0 0 48px 0;
 
     .branding {
       display: flex;
@@ -74,8 +103,51 @@ body {
   }
 
   .menu-tools {
-    display: block;
-    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    a {
+      width: 100%;
+      text-decoration: none;
+      text-align: center;
+      padding: 12px 24px;
+      border-radius: 8px;
+    }
+
+    a:first-child {
+      border-radius: 8px;
+      background: var(--Cores-Moeda, #d1cd4b);
+
+      color: var(--Cores-Petrleo, #023a4a);
+      text-align: center;
+
+      /* Button/Large */
+      font-family: "Helvetica Neue";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 19.2px */
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    a:last-child {
+      border-radius: 8px;
+      border: 1px solid var(--Button-Ghost-Label-Default, #e8eeef);
+
+      color: var(--Button-Ghost-Label-Default, #e8eeef);
+      text-align: center;
+
+      /* Button/Large */
+      font-family: "Helvetica Neue";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 19.2px */
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
 
     .div-pesquisar-mobile {
       display: flex;
@@ -182,7 +254,7 @@ body {
   }
 
   .nav-mobile {
-    margin-top: 12px;
+    margin-top: 16px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -241,34 +313,36 @@ body {
       }
 
       .accordion-button {
-        padding: 24px;
+        padding: 24px 0px;
         position: relative;
-        color: #666666;
-        border-radius: 0;
         background: transparent;
         gap: 10px;
-        font-size: rem(20);
         align-items: start;
         display: flex;
-        flex-direction: column;
-        background-color: #1e524f;
-        // border-top-left-radius: 8px;
-        // border-top-right-radius: 8px;
-        border-radius: 8px;
+        justify-content: space-between;
 
+        font-size: rem(20);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         color: var(--Font-Text-text-negative, #fff);
-
-        /* Menu/Mobile/Canal/Default */
         font-family: "Sofia Sans";
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 124%; /* 24.8px */
 
+        a {
+          font-size: rem(20);
+          color: var(--Font-Text-text-negative, #fff);
+          font-family: "Sofia Sans";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 124%; /* 24.8px */
+          text-decoration: none;
+        }
+
         p {
           color: var(--Secondary-brand-40, #d9cdb5);
-
-          /* Body/Paragraph/Body 2 */
           font-family: var(--font-sans);
           font-size: 14px;
           font-style: normal;
@@ -405,7 +479,7 @@ body {
   right: 0;
   overflow: auto;
   // background-color: var(--primary-01-default);
-  background-color: var(--text-white);
+  background: var(--Cores-Petrleo, #023a4a);
 
   .menu-body {
     display: flex;
@@ -420,18 +494,18 @@ body {
       .toggle-mobile-menu {
         span {
           transform: rotate(45deg);
-          background-color: var(--text-black);
+          background-color: #d1cd4b;
 
           &::before {
             top: 0;
             // background: var(--text-whtie);
-            background-color: var(--text-black);
+            background-color: #d1cd4b;
             transform: rotate(90deg);
           }
 
           &::after {
             bottom: 0;
-            background-color: var(--text-black);
+            background-color: #d1cd4b;
 
             transform: rotate(90deg);
           }
