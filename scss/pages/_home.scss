@@ -2037,6 +2037,7 @@ footer {
       .title-texts-box {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 12px;
 
         img {
@@ -2191,6 +2192,10 @@ footer {
     height: 100%;
     content: "";
     z-index: 2;
+
+    @media (max-width: 624px) {
+      width: 47px;
+    }
   }
 
   .logos:before {
