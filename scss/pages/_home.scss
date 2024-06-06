@@ -2392,6 +2392,21 @@ footer {
   @media (max-width: 1199px) {
     margin-top: 53px;
   }
+
+  @media (max-width: 991px) {
+    width: 65%;
+    margin-top: 52px;
+  }
+
+  @media (max-width: 750px) {
+    // border: 1px solid red;
+    width: 70%;
+  }
+
+  @media (max-width: 520px) {
+    width: 100%;
+    margin-top: 40px;
+  }
 }
 
 .estudos-home {
@@ -2616,9 +2631,13 @@ footer {
 }
 
 .top-bg {
-  position: absolute;
-  right: 0;
+  // position: absolute;
+  // right: 0;
   margin-top: -87px;
+
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bot-bg {
