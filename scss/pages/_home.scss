@@ -2335,6 +2335,12 @@ footer {
     }
 
     .text-1 {
+      width: 55%;
+
+      @media (max-width: 1199px) {
+        width: 100%;
+      }
+
       h3 {
         margin: 0;
         padding: 0;
@@ -2349,6 +2355,12 @@ footer {
     }
 
     .text-2 {
+      width: 45%;
+
+      @media (max-width: 1199px) {
+        width: 100%;
+      }
+
       h4 {
         margin: 0;
         padding: 0;
