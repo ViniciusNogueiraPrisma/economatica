@@ -207,17 +207,21 @@ $(".button-mapa-site").click((e) => {
 //  breakpoint: 767
 //});
 
+// JOS.init();
+
 // Animações para aparecer o elemento
 AOS.init({
-  once: true,
+  // once: true,
+  // easing: "ease-out-back",
+  // duration: 1000,
 });
 
-window.addEventListener(
-  "scroll",
-  debounce(() => {
-    AOS.refresh();
-  }, 200)
-);
+// window.addEventListener(
+//   "scroll",
+//   debounce(() => {
+//     AOS.refresh();
+//   }, 200)
+// );
 
 // Tooltip
 
@@ -322,6 +326,8 @@ function typeWords() {
     }
   }
 }
+
+JOS.init();
 
 //inicia a função de digitação
 document.addEventListener("DOMContentLoaded", () => {

@@ -2188,7 +2188,7 @@ footer {
   .logos:after {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 320px;
     height: 100%;
     content: "";
     z-index: 2;
@@ -2220,31 +2220,8 @@ footer {
   .logos-slide img {
     height: 50px;
     margin: 0 32px;
+    transition: 0.7s;
   }
-
-  // .marquee {
-  //   width: 100%;
-  //   display: flex;
-  //   gap: 64px;
-  //   justify-content: center;
-  //   white-space: nowrap;
-  //   overflow: hidden;
-  //   position: relative;
-
-  //   img {
-  //     display: inline-block;
-  //     animation: marquee 3s linear infinite;
-  //   }
-  // }
-
-  // @keyframes marquee {
-  //   0% {
-  //     transform: translateX(100%);
-  //   }
-  //   100% {
-  //     transform: translateX(-100%);
-  //   }
-  // }
 }
 
 .plataforma-section {
