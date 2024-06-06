@@ -283,6 +283,51 @@ document
     });
   });
 
+//pausar imagem no hover se necessario
+var copy = document.querySelector(".logos-slide").cloneNode(true);
+document.querySelector(".logos").appendChild(copy);
+
+//função trocando palavra com array
+const words = ["dados financeiros", "cotações e fundos", "informação ágeis"];
+
+const wordElement = document.getElementById("word");
+
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingSpeed = 100;
+const erasingSpeed = 50;
+const delayBetweenWords = 2000;
+
+function typeWords() {
+  const currentWord = words[wordIndex];
+  if (isDeleting) {
+    if (charIndex > 0) {
+      wordElement.textContent = currentWord.substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(typeWords, erasingSpeed);
+    } else {
+      isDeleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+      setTimeout(typeWords, typingSpeed);
+    }
+  } else {
+    if (charIndex < currentWord.length) {
+      wordElement.textContent = currentWord.substring(0, charIndex + 1);
+      charIndex++;
+      setTimeout(typeWords, typingSpeed);
+    } else {
+      isDeleting = true;
+      setTimeout(typeWords, delayBetweenWords);
+    }
+  }
+}
+
+//inicia a função de digitação
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(typeWords, delayBetweenWords);
+});
+
 /* Carousels */
 
 $(document).ready(function () {

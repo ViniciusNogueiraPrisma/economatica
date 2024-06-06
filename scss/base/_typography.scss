@@ -255,9 +255,60 @@ a {
   }
 }
 
+.link-login {
+  &::after {
+    background: url("../../images/icon-digital.svg") no-repeat center !important;
+  }
+
+  &:hover {
+    font-weight: 700;
+
+    &::after {
+      height: 15px;
+      width: 15px;
+    }
+  }
+}
+
+.link-arrow-right {
+  &::after {
+    background: url("../../images/arrow-right-hover.svg") no-repeat center !important;
+  }
+
+  &:hover {
+    font-weight: 700;
+
+    &::after {
+      height: 15px;
+      width: 15px;
+    }
+  }
+}
+
+.link-arrow-all {
+  transition: 0.5s;
+
+  &::after {
+    background: url("../../images/arrow-all.svg") no-repeat center !important;
+  }
+
+  &:hover {
+    font-weight: 700;
+
+    transition: 0.5s;
+    color: rgba(209, 205, 75, 1) !important;
+    border: 1px solid rgba(209, 205, 75, 1) !important;
+
+    &::after {
+      height: 15px;
+      width: 15px;
+    }
+  }
+}
+
 .link-com-arrow,
 .link-com-download {
-  transition: 0.3s ease;
+  transition: 0.4s ease;
   display: flex;
   align-items: center;
   max-width: max-content;
@@ -265,21 +316,21 @@ a {
   &::after {
     content: "";
     display: block;
-    background: url("../../images/icons/icon-arrow-right.svg") no-repeat center;
+    background: url("") no-repeat center;
     background-size: contain;
     margin-left: 0px;
     height: 0px;
     width: 0px;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
   }
 
   &:hover {
     font-weight: 700;
 
     &::after {
-      margin-left: 10px;
-      height: 19px;
-      width: 19px;
+      margin-left: 8px;
+      // height: 19px;
+      // width: 19px;
     }
   }
 }

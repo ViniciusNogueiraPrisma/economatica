@@ -1878,6 +1878,10 @@ footer {
   background: var(--Cores-Mrmore, #e8eeef);
   overflow: hidden;
 
+  @media (max-width: 991px) {
+    padding: 100px 0px;
+  }
+
   .title-solu {
     display: flex;
     flex-direction: column;
@@ -1913,6 +1917,10 @@ footer {
       font-style: normal;
       font-weight: 500;
       line-height: 120%;
+
+      @media (max-width: 991px) {
+        font-size: 29px;
+      }
     }
   }
 
@@ -1962,6 +1970,14 @@ footer {
       display: flex;
       gap: 14px;
 
+      @media (max-width: 1199px) {
+        flex-direction: column;
+
+        .box {
+          width: 100%;
+        }
+      }
+
       .box:nth-child(2) {
         flex-grow: 1.2;
       }
@@ -1975,6 +1991,13 @@ footer {
       display: flex;
       gap: 14px;
       margin-top: 14px;
+      @media (max-width: 1199px) {
+        flex-direction: column;
+
+        .box {
+          width: 100%;
+        }
+      }
 
       .box {
         flex: 1;
@@ -1983,6 +2006,13 @@ footer {
 
     .three-line {
       margin-top: 14px;
+      @media (max-width: 1199px) {
+        flex-direction: column;
+
+        .box {
+          width: 100%;
+        }
+      }
     }
 
     .texts-box {
@@ -2131,11 +2161,85 @@ footer {
 .imgs-clientes {
   margin-top: 64px;
   display: flex;
-  // flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 64px;
   overflow: hidden;
+  white-space: nowrap;
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logos {
+    overflow: hidden;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+
+  // .logos:hover .logos-slide {
+  //   animation-play-state: paused;
+  // }
+
+  .logos-slide {
+    display: inline-block;
+    animation: 4s slide infinite linear;
+  }
+
+  .logos-slide img {
+    height: 50px;
+    margin: 0 32px;
+  }
+
+  // .marquee {
+  //   width: 100%;
+  //   display: flex;
+  //   gap: 64px;
+  //   justify-content: center;
+  //   white-space: nowrap;
+  //   overflow: hidden;
+  //   position: relative;
+
+  //   img {
+  //     display: inline-block;
+  //     animation: marquee 3s linear infinite;
+  //   }
+  // }
+
+  // @keyframes marquee {
+  //   0% {
+  //     transform: translateX(100%);
+  //   }
+  //   100% {
+  //     transform: translateX(-100%);
+  //   }
+  // }
 }
 
 .plataforma-section {
@@ -2152,7 +2256,26 @@ footer {
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 991px) {
+    height: 500px;
+  }
+
   .title-plataforma {
+    .typing {
+      border-right: 2px solid #d1cd4b;
+      animation: blink-caret 0.7s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: #d1cd4b;
+      }
+    }
+
     h2 {
       margin: 0;
       padding: 0;
@@ -2166,7 +2289,7 @@ footer {
       line-height: 120%;
 
       @media (max-width: 991px) {
-        font-size: rem(36);
+        font-size: rem(35);
       }
 
       span {
@@ -2178,7 +2301,7 @@ footer {
         line-height: 120%;
 
         @media (max-width: 991px) {
-          font-size: rem(36);
+          font-size: rem(35);
         }
       }
     }
@@ -2188,6 +2311,10 @@ footer {
 .ref-section {
   background: var(--Cores-Petrleo, #023a4a);
   padding: 160px 0px;
+
+  @media (max-width: 991px) {
+    padding: 100px 0px;
+  }
 
   .title-ref {
     margin-bottom: 16px;
@@ -2287,6 +2414,12 @@ footer {
 
 .estudos-home {
   padding: 160px 0px;
+
+  @media (max-width: 991px) {
+    // padding: 120px 0px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
 
   .title-estudos {
     display: flex;
@@ -2513,6 +2646,8 @@ footer {
 
   @media (max-width: 991px) {
     margin-top: 24px;
+
+    display: none;
   }
 }
 
@@ -2529,8 +2664,9 @@ footer {
     display: flex;
 
     @media (max-width: 590px) {
-      flex-direction: column;
-      gap: 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
     }
 
     .item:first-child {
