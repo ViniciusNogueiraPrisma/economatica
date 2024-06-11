@@ -1369,7 +1369,8 @@ footer {
       font-size: 42px;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; /* 50.4px */
+      line-height: 120%;
+      /* 50.4px */
       margin: 0;
       padding: 0;
 
@@ -1585,6 +1586,7 @@ footer {
   @media (max-width: 1433px) {
     top: -8px;
   }
+
   @media (max-width: 1199px) {
     top: -18px;
   }
@@ -1767,7 +1769,8 @@ footer {
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
-      line-height: 130%; /* 15.6px */
+      line-height: 130%;
+      /* 15.6px */
     }
 
     .flex-box {
@@ -1785,7 +1788,8 @@ footer {
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 150%; /* 27px */
+        line-height: 150%;
+        /* 27px */
       }
     }
   }
@@ -1912,6 +1916,7 @@ footer {
       display: flex;
       gap: 14px;
       margin-top: 14px;
+
       @media (max-width: 1199px) {
         flex-direction: column;
 
@@ -1927,6 +1932,7 @@ footer {
 
     .three-line {
       margin-top: 14px;
+
       @media (max-width: 1199px) {
         flex-direction: column;
 
@@ -2006,7 +2012,8 @@ footer {
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 140%; /* 28px */
+        line-height: 140%;
+        /* 28px */
       }
 
       p {
@@ -2022,7 +2029,8 @@ footer {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 150%; /* 24px */
+        line-height: 150%;
+        /* 24px */
 
         // margin-bottom: 20px;
       }
@@ -2079,7 +2087,8 @@ footer {
       font-size: 36px;
       font-style: normal;
       font-weight: 500;
-      line-height: 120%; /* 43.2px */
+      line-height: 120%;
+      /* 43.2px */
     }
   }
 }
@@ -2097,6 +2106,7 @@ footer {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(-100%);
     }
@@ -2178,6 +2188,7 @@ footer {
       to {
         border-color: transparent;
       }
+
       50% {
         border-color: #d1cd4b;
       }
@@ -2265,7 +2276,8 @@ footer {
         font-size: 36px;
         font-style: normal;
         font-weight: 500;
-        line-height: 120%; /* 43.2px */
+        line-height: 120%;
+        /* 43.2px */
       }
     }
 
@@ -2313,7 +2325,8 @@ footer {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 120%; /* 19.2px */
+        line-height: 120%;
+        /* 19.2px */
         letter-spacing: 1.6px;
         text-transform: uppercase;
       }
@@ -2389,7 +2402,8 @@ footer {
       font-size: 36px;
       font-style: normal;
       font-weight: 500;
-      line-height: 120%; /* 43.2px */
+      line-height: 120%;
+      /* 43.2px */
     }
 
     a {
@@ -2407,7 +2421,8 @@ footer {
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; /* 19.2px */
+      line-height: 120%;
+      /* 19.2px */
       letter-spacing: 1.6px;
       text-transform: uppercase;
     }
@@ -2481,7 +2496,8 @@ footer {
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
-          line-height: 150%; /* 24px */
+          line-height: 150%;
+          /* 24px */
 
           display: -webkit-box;
           -webkit-line-clamp: 3;
@@ -2527,7 +2543,8 @@ footer {
       font-size: 36px;
       font-style: normal;
       font-weight: 500;
-      line-height: 120%; /* 43.2px */
+      line-height: 120%;
+      /* 43.2px */
     }
 
     h6 {
@@ -2542,7 +2559,8 @@ footer {
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: 140%; /* 28px */
+      line-height: 140%;
+      /* 28px */
     }
 
     a {
@@ -2560,7 +2578,8 @@ footer {
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; /* 19.2px */
+      line-height: 120%;
+      /* 19.2px */
       letter-spacing: 1.6px;
       text-transform: uppercase;
     }
@@ -2787,7 +2806,8 @@ footer {
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
-      line-height: 130%; /* 15.6px */
+      line-height: 130%;
+      /* 15.6px */
     }
 
     p {
@@ -2798,7 +2818,8 @@ footer {
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
-      line-height: 130%; /* 15.6px */
+      line-height: 130%;
+      /* 15.6px */
     }
   }
 
@@ -2819,7 +2840,8 @@ footer {
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
-      line-height: 100%; /* 15.6px */
+      line-height: 100%;
+      /* 15.6px */
     }
   }
 }
@@ -2849,7 +2871,8 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
   }
 
   .flex-login-modal {
@@ -2878,7 +2901,8 @@ footer {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 150%; /* 24px */
+        line-height: 150%;
+        /* 24px */
         text-transform: uppercase;
       }
 
@@ -2890,7 +2914,8 @@ footer {
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 132%; /* 21.12px */
+        line-height: 132%;
+        /* 21.12px */
       }
 
       a {
@@ -2947,11 +2972,12 @@ footer {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%; /* 57.6px */
+    line-height: 120%;
+    /* 57.6px */
   }
 }
 
-#centralModal2 {
+.modal-contacts {
   .modal-dialog {
     .modal-content {
       border-radius: 16px;
@@ -2992,7 +3018,8 @@ footer {
           font-size: 32px;
           font-style: normal;
           font-weight: 500;
-          line-height: 120%; /* 43.2px */
+          line-height: 120%;
+          /* 43.2px */
         }
 
         .inputs-modal {
@@ -3026,7 +3053,8 @@ footer {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
-            line-height: 120%; /* 16.8px */
+            line-height: 120%;
+            /* 16.8px */
             letter-spacing: 1.4px;
             text-transform: uppercase;
 
@@ -3043,7 +3071,8 @@ footer {
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
-              line-height: 120%; /* 16.8px */
+              line-height: 120%;
+              /* 16.8px */
               letter-spacing: 1.4px;
               text-transform: uppercase;
             }
@@ -3054,7 +3083,29 @@ footer {
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
-              line-height: 120%; /* 16.8px */
+              line-height: 120%;
+              /* 16.8px */
+              letter-spacing: 1.4px;
+              text-transform: uppercase;
+            }
+          }
+
+          textarea {
+            width: 100%;
+            display: flex;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: 0px;
+            padding: 24px;
+
+            &::placeholder {
+              color: var(--Cores-Nquel, #777);
+              font-family: "Helvetica Neue";
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 120%;
+              /* 16.8px */
               letter-spacing: 1.4px;
               text-transform: uppercase;
             }
@@ -3073,7 +3124,8 @@ footer {
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
-              line-height: 120%; /* 16.8px */
+              line-height: 120%;
+              /* 16.8px */
               letter-spacing: 1.4px;
               text-transform: uppercase;
             }
@@ -3094,7 +3146,8 @@ footer {
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
-              line-height: 140%; /* 19.6px */
+              line-height: 140%;
+              /* 19.6px */
 
               a {
                 text-decoration: underline;
@@ -3103,7 +3156,8 @@ footer {
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 140%; /* 19.6px */
+                line-height: 140%;
+                /* 19.6px */
               }
             }
           }
@@ -3131,7 +3185,8 @@ footer {
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
-              line-height: 120%; /* 19.2px */
+              line-height: 120%;
+              /* 19.2px */
               letter-spacing: 1.6px;
               text-transform: uppercase;
 
@@ -3159,12 +3214,154 @@ footer {
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
-              line-height: 120%; /* 19.2px */
+              line-height: 120%;
+              /* 19.2px */
               letter-spacing: 1.6px;
               text-transform: uppercase;
             }
           }
         }
+      }
+    }
+  }
+}
+
+.modal-inputs-login {
+  h5 {
+    margin: 0;
+    padding: 0;
+
+    color: rgba(232, 238, 239, 0.75);
+
+    /* Button/Medium */
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 16.8px */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // gap: 75px;
+
+    .title {
+      margin-bottom: 76px;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        color: var(--Cores-Mrmore, #e8eeef);
+        font-family: "Atyp Display";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 43.2px */
+      }
+    }
+
+    .inputs-login {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      a {
+        text-decoration: none;
+        color: var(--Cores-Mrmore, #e8eeef);
+
+        /* Body/Medium, Regular */
+        font-family: "Helvetica Neue";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 19.6px */
+      }
+
+      input {
+        padding: 12px 24px;
+        border-radius: 8px;
+        border: 0.5px solid var(--Cores-Petrleo, #023a4a);
+        background: var(--Grayscale-grayscale-color-900, #fff);
+
+        &::placeholder {
+          color: var(--Cores-Nquel, #777);
+          font-family: "Helvetica Neue";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%;
+          /* 16.8px */
+          letter-spacing: 1.4px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .submit-buttons {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      input {
+        width: 100%;
+        border-radius: 8px;
+        border: 0px;
+        padding: 12px 24px;
+        text-align: center;
+        background: var(--Cores-Moeda, #d1cd4b);
+
+        color: var(--Cores-Petrleo, #023a4a);
+        text-align: center;
+
+        /* Button/Large */
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+
+        &::placeholder {
+          color: var(--Cores-Petrleo, #023a4a);
+          text-align: center;
+          font-family: "Helvetica Neue";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%; /* 19.2px */
+          letter-spacing: 1.6px;
+          text-transform: uppercase;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        padding: 12px 24px;
+        border-radius: 8px;
+        border: 1px solid #fff;
+
+        color: var(--Button-Ghost-Label-Default, #e8eeef);
+        text-align: center;
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
       }
     }
   }

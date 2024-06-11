@@ -1101,7 +1101,12 @@
 
                 <h5>Qualidade das informações mudam os resultados</h5>
 
-                <a href="#">Login TC Economatica</a>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#centralModal4"
+                  >Login TC Economatica</a
+                >
               </div>
 
               <div class="item">
@@ -1118,7 +1123,7 @@
     </div>
 
     <div
-      class="modal fade"
+      class="modal fade modal-contacts"
       id="centralModal2"
       tabindex="-1"
       aria-labelledby="centralModalLabel"
@@ -1170,8 +1175,130 @@
               <div class="item2">
                 <input type="submit" placeholder="ENVIAR" />
 
-                <a href="#" target="_blank">Entrar em contato</a>
+                <a
+                  href="#"
+                  target="_blank"
+                  data-bs-toggle="modal"
+                  data-bs-target="#centralModal3"
+                  >Entrar em contato</a
+                >
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade modal-contacts"
+      id="centralModal3"
+      tabindex="-1"
+      aria-labelledby="centralModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="centralModalLabel">contato</h5>
+
+            <div
+              class="bg-modal-x"
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="images/x-modal.png" alt="" />
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <h5>Entrar em contato</h5>
+
+            <div class="inputs-modal">
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="E-MAIL" />
+
+              <div class="inputs-flex">
+                <input type="text" placeholder="empresa" />
+                <input type="text" placeholder="telefone" />
+              </div>
+
+              <textarea
+                name=""
+                id=""
+                rows="2"
+                placeholder="MENSAGEM"
+              ></textarea>
+            </div>
+
+            <div class="option-selected">
+              <div class="item1">
+                <input type="checkbox" />
+
+                <p>
+                  Estou ciente e concordo com os <a href="">Termos de uso</a> e
+                  <a href="">Política de Privacidade</a> do site.
+                </p>
+              </div>
+
+              <div class="item2">
+                <input type="submit" placeholder="ENVIAR" />
+
+                <a
+                  href="#"
+                  target="_blank"
+                  data-bs-toggle="modal"
+                  data-bs-target="#centralModal3"
+                  >Entrar em contato</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade modal-inputs-login"
+      id="centralModal4"
+      tabindex="-1"
+      aria-labelledby="centralModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="centralModalLabel">plataforma</h5>
+
+            <div
+              class="bg-modal-x"
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="images/x-modal.png" alt="" />
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <div class="title">
+              <h3>Log in</h3>
+            </div>
+
+            <div class="inputs-login">
+              <input type="text" placeholder="E-MAIL" />
+              <input type="text" placeholder="Senha" />
+
+              <a href="#" data-bs-toggle="modal" data-bs-target="#centralModal5"
+                >Esqueceu a senha ?</a
+              >
+            </div>
+
+            <div class="submit-buttons">
+              <input type="submit" placeholder="CONTINUAR" />
+              <a href="#">Entrar em contato</a>
             </div>
           </div>
         </div>
