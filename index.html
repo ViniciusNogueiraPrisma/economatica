@@ -557,7 +557,12 @@
 
             <div class="header-right-side">
               <div class="others-itens-menu">
-                <a href="#" target="_blank" class="link-com-arrow link-login"
+                <a
+                  href="#"
+                  target="_blank"
+                  class="link-com-arrow link-login"
+                  data-bs-toggle="modal"
+                  data-bs-target="#centralModal"
                   >LOG IN</a
                 >
 
@@ -565,6 +570,8 @@
                   href="#"
                   target="_blank"
                   class="link-com-arrow link-arrow-right"
+                  data-bs-toggle="modal"
+                  data-bs-target="#centralModal2"
                   >SOLICITAR DEMO</a
                 >
               </div>
@@ -1059,6 +1066,119 @@
         </div>
       </div>
     </div>
+
+    <!-- ALL MODALS -->
+
+    <div
+      class="modal fade"
+      id="centralModal"
+      tabindex="-1"
+      aria-labelledby="centralModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="centralModalLabel">Login</h5>
+
+            <div
+              class="bg-modal-x"
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="images/x-modal.png" alt="" />
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <p>Escolha onde fazer login</p>
+
+            <div class="flex-login-modal">
+              <div class="item">
+                <p>TC ECONOMATICA</p>
+
+                <h5>Qualidade das informações mudam os resultados</h5>
+
+                <a href="#">Login TC Economatica</a>
+              </div>
+
+              <div class="item">
+                <p>PLATAFORMA</p>
+
+                <h5>A confiabilidade é o que faz a diferença.</h5>
+
+                <a href="#">Login PLATAFORMA</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="centralModal2"
+      tabindex="-1"
+      aria-labelledby="centralModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="centralModalLabel">contato</h5>
+
+            <div
+              class="bg-modal-x"
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="images/x-modal.png" alt="" />
+            </div>
+          </div>
+
+          <div class="modal-body">
+            <h5>Solicitar demonstração da plataforma</h5>
+
+            <div class="inputs-modal">
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="E-MAIL" />
+
+              <div class="inputs-flex">
+                <input type="text" placeholder="empresa" />
+                <input type="text" placeholder="telefone" />
+              </div>
+
+              <select name="" id="" aria-placeholder="PERFIL">
+                <option value="">PERFIL</option>
+              </select>
+            </div>
+
+            <div class="option-selected">
+              <div class="item1">
+                <input type="checkbox" />
+
+                <p>
+                  Estou ciente e concordo com os <a href="">Termos de uso</a> e
+                  <a href="">Política de Privacidade</a> do site.
+                </p>
+              </div>
+
+              <div class="item2">
+                <input type="submit" placeholder="ENVIAR" />
+
+                <a href="#" target="_blank">Entrar em contato</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END -->
 
     <footer>
       <div class="container container-responsivo-full">
