@@ -76,28 +76,65 @@ $(".titulosCentral").each(function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var accordion = new bootstrap.Collapse(document.getElementById("conce"), {
-    toggle: false,
-  });
+  const accordionButtons = document.querySelectorAll(".accordion-button");
 
-  var accordionItems = document.querySelectorAll(".accordion-item");
+  accordionButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const targetId = button.getAttribute("data-bs-target");
 
-  accordionItems.forEach(function (item) {
-    item.addEventListener("show.bs.collapse", function () {
-      accordionItems.forEach(function (otherItem) {
-        if (otherItem !== item) {
-          var collapse = new bootstrap.Collapse(
-            otherItem.querySelector(".collapse"),
-            {
+      // Collapse all other accordions
+      accordionButtons.forEach((otherButton) => {
+        const otherTargetId = otherButton.getAttribute("data-bs-target");
+        if (otherTargetId !== targetId) {
+          const otherCollapse = document.querySelector(otherTargetId);
+          if (otherCollapse && otherCollapse.classList.contains("show")) {
+            const bsCollapse = new bootstrap.Collapse(otherCollapse, {
               toggle: false,
-            }
-          );
-          collapse.hide();
+            });
+            bsCollapse.hide();
+          }
         }
       });
+
+      // Toggle the clicked accordion
+      const collapseElement = document.querySelector(targetId);
+      if (collapseElement) {
+        const bsCollapse = new bootstrap.Collapse(collapseElement, {
+          toggle: false,
+        });
+        if (collapseElement.classList.contains("show")) {
+          bsCollapse.hide();
+        } else {
+          bsCollapse.show();
+        }
+      }
     });
   });
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   var accordion = new bootstrap.Collapse(document.getElementById("conce"), {
+//     toggle: false,
+//   });
+
+//   var accordionItems = document.querySelectorAll(".accordion-item");
+
+//   accordionItems.forEach(function (item) {
+//     item.addEventListener("show.bs.collapse", function () {
+//       accordionItems.forEach(function (otherItem) {
+//         if (otherItem !== item) {
+//           var collapse = new bootstrap.Collapse(
+//             otherItem.querySelector(".collapse"),
+//             {
+//               toggle: false,
+//             }
+//           );
+//           collapse.hide();
+//         }
+//       });
+//     });
+//   });
+// });
 
 const counterUp = window.counterUp.default;
 
@@ -287,9 +324,9 @@ document
     });
   });
 
-//pausar imagem no hover se necessario
-var copy = document.querySelector(".logos-slide").cloneNode(true);
-document.querySelector(".logos").appendChild(copy);
+// //pausar imagem no hover se necessario
+// var copy = document.querySelector(".logos-slide").cloneNode(true);
+// document.querySelector(".logos").appendChild(copy);
 
 //função trocando palavra com array
 const words = ["dados financeiros", "cotações e fundos", "informação ágeis"];
@@ -326,8 +363,6 @@ function typeWords() {
     }
   }
 }
-
-JOS.init();
 
 //inicia a função de digitação
 document.addEventListener("DOMContentLoaded", () => {
@@ -540,26 +575,26 @@ if ($("modalVideo")) {
 }
 
 /* Scroll to accordion */
-$(document).ready(function () {
-  let buttonAccordions = document.querySelectorAll(
-    ".accordion:not(#accordionMenuMobile) button.accordion-button"
-  );
-  buttonAccordions.forEach((i) => {
-    i.addEventListener("click", () => {
-      setTimeout(() => {
-        if (!i.classList.contains("collapsed")) {
-          const id = i.getAttribute("data-bs-target");
-          const section = $(id);
-          const topo = section.offset().top;
-          window.scrollTo({
-            top: topo - 230,
-            behavior: "smooth",
-          });
-        }
-      }, 410);
-    });
-  });
-});
+// $(document).ready(function () {
+//   let buttonAccordions = document.querySelectorAll(
+//     ".accordion:not(#accordionMenuMobile) button.accordion-button"
+//   );
+//   buttonAccordions.forEach((i) => {
+//     i.addEventListener("click", () => {
+//       setTimeout(() => {
+//         if (!i.classList.contains("collapsed")) {
+//           const id = i.getAttribute("data-bs-target");
+//           const section = $(id);
+//           const topo = section.offset().top;
+//           window.scrollTo({
+//             top: topo - 230,
+//             behavior: "smooth",
+//           });
+//         }
+//       }, 410);
+//     });
+//   });
+// });
 
 const storys = new PrismaStories("slide", "openStorys", "closeStorys");
 storys.init();
