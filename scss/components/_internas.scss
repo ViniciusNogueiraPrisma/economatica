@@ -2252,3 +2252,67 @@
     width: 80%;
   }
 }
+
+.tela-login-2 {
+  background: url("../../images/bg-login-2.png") lightgray 50% / cover no-repeat;
+
+  .inputs-login {
+    input {
+      background-color: transparent !important;
+
+      &::placeholder {
+        color: #a3a3a3;
+      }
+    }
+
+    a {
+      background-color: white !important;
+      color: black !important;
+    }
+  }
+
+  .main-login {
+    border-radius: 8px;
+    border: 1px solid #3e3e3e;
+    background: #161616;
+
+    .footer-login {
+      p {
+        color: #a3a3a3;
+      }
+
+      a {
+        color: #a3a3a3 !important;
+      }
+    }
+
+    .not-account {
+      a {
+        color: #a3a3a3 !important;
+      }
+
+      a:last-child {
+        border: 1px solid white;
+        color: white !important;
+      }
+    }
+
+    .trade-flex {
+      a {
+        color: white;
+      }
+    }
+
+    .trade-login {
+      .first-link {
+        color: #a3a3a3;
+      }
+    }
+
+    .texts-login {
+      p {
+        color: white;
+      }
+    }
+  }
+}
