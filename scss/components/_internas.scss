@@ -2310,8 +2310,21 @@
     }
 
     .texts-login {
+      img {
+        // border: 1px solid red;
+        // width: 200px;
+      }
+
       p {
-        color: white;
+        color: #dfdfdf;
+        text-align: center;
+
+        /* Body/Medium, Regular */
+        font-family: "Helvetica Neue";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 19.6px */
       }
     }
   }
