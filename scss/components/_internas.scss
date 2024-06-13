@@ -1873,12 +1873,16 @@
   }
 }
 
+.bg-blue {
+  background: var(--Cores-Petrleo, #023a4a);
+}
+
 .image-bg-404 {
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../../images/405.png");
+  background-image: url("../../images/404.png");
 
   .texts-error {
     width: 100%;
@@ -1893,12 +1897,12 @@
     padding-right: 40px;
 
     h1 {
-      color: var(--font-title-font-title-color-big, #1d1d1d);
+      color: var(--font-title-font-title-color-big, #e8eeef);
       text-align: center;
-      font-family: "Sofia Sans";
+      font-family: "Atyp Display";
       font-size: 60px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 500;
       line-height: 120%;
       margin: 0;
       padding: 0;
@@ -1912,14 +1916,12 @@
     }
 
     span {
-      color: var(--Font-Text-text-big, #1d1d1d);
+      color: var(--Font-Text-text-big, #e8eeef);
       text-align: center;
-
-      /* Body/Paragraph/Body 4, Bold */
-      font-family: var(--font-sans);
+      font-family: "Atyp Display";
       font-size: 18px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 500;
       line-height: 150%; /* 27px */
       margin: 0;
       padding: 0;
@@ -1927,11 +1929,11 @@
     }
 
     p {
-      color: var(--Font-Text-text-medium, #333);
+      color: var(--Font-Text-text-medium, #e8eeef);
       text-align: center;
 
       /* Body/Paragraph/Body 4 */
-      font-family: var(--font-sans);
+      font-family: "Atyp Display";
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -1951,32 +1953,34 @@
       }
 
       a:first-child {
-        color: var(--Button-Ghost-Text-text-default, #333);
+        color: var(--Button-Ghost-Text-text-default, #e8eeef);
         text-align: center;
 
         /* Button/Large */
-        font-family: "Sofia Sans";
+        font-family: "Atyp Display";
         font-size: 18px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 100%; /* 18px */
         text-decoration: none;
       }
 
       a:last-child {
-        background-color: #00df81;
-        padding: 16px 28px;
-        border-radius: 50px;
-        color: var(--Button-Primary-Text-text-default, #333);
+        padding: 12px 24px;
+        border-radius: 8px;
+        background: var(--Button-Ghost-Background-Default, #e8eeef);
+        text-decoration: none;
+        color: var(--Button-Primary-Outline-Default, #023a4a);
         text-align: center;
 
         /* Button/Large */
-        font-family: "Sofia Sans";
-        font-size: 18px;
+        font-family: "Helvetica Neue";
+        font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 100%; /* 18px */
-        text-decoration: none;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
       }
     }
   }
